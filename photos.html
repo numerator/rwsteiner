@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="R. W. Steiner">
+  <meta name="author" content="Mark W Newman">
+
+  <title>R. W. Steiner</title>
+  <link rel='stylesheet' href='style.css'/>
+
+  <script>
+    gallerySource="photos";
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+  <script src="js/gallery.js"></script>
+
+</head>
+
+<body onload="load()">
+
+  <div class="navHeader">
+    <a href="index.html">
+    <img src="icons/arrow_back_ios-24px.svg"/> <span>Robert W. Steiner </span>
+    </a>  
+
+  </div>
+
+  <div class="pageContainer2">
+    <div id="leftPanel">
+      <img 
+        id="backArrow"
+        src="icons/arrow_back_ios-24px.svg"
+        onClick="back()"
+      />
+    </div>
+    <div id="centerPanel">
+      <p id="title">Photo Gallery</p>
+      <img id="centerImage" src=""/>
+      <p id="caption">Cover Page</p>
+    </div>
+    <div id="rightPanel">
+      <img 
+        id="forwardArrow"
+        src="icons/arrow_forward_ios-24px.svg"
+        onClick="forward()"
+      />
+    </div>
+  </div>
+
+</body>
+</html>
